@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<style>
+  
+  li{
+    margin-top: 2vh;
+  }
+</style>
+<body style="background-color: rgba(205, 205, 205, 0.604)">
+  <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fs-4 font-weight-bold" aria-current="page" href="#">Weather App</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container my-5">
+    <form>
+      <div class="mb-3">
+        <p class="form-label fs-5">Country Name</p>
+        <input type="text" class="form-control" id="namecountry">
+      </div>
+      <div class="mb-3">
+        <p class="form-label fs-5">City Name </p>
+        <input type="text" class="form-control" id="namecity">
+      </div>
+      <button type="button" class="btn btn-success" id="button1">Send</button>
+    </form>
+  </div>
+  <div id="display1" class="my-5 container"></div>
+  <div id="display2" class="my-5 container"></div>
+  <div class="container my-5 m-auto">
+    <h1>Documentation</h1>
+    <ul title="dist">
+      <li><b>Country:</b> The country where the weather observation is taking place.</li>
+      <li><b>Name:</b> The name of the city or town where the weather observation is taking place.</li>
+      <li><b>Region:</b> The region of the country where the weather observation is taking place.</li>
+      <li><b>Tz_id:</b> The time zone identifier for the location of the weather observation.</li>
+      <li><b>Lat:</b> The latitude of the location of the weather observation.      </li>
+      <li><b>Localtime:</b> The local time of the weather observation.</li>
+      <li><b>Localtime_epoch:</b> The Unix epoch timestamp of the weather observation.</li>
+      <li><b>Lon:</b> The longitude of the location of the weather observation.</li>
+      <li><b>Current:</b> An object containing the current weather conditions, including temperature, humidity, wind speed, etc.</li>
+      <li><b>Cloud:</b> The percentage of the sky that is covered by clouds.</li>
+      <li><b>Feelslike_c:</b> The perceived temperature by humans.</li>
+      <li><b>Feelslike_f:</b> The perceived temperature by humans in Fahrenheit.</li>
+      <li><b>Gust_kph:</b> The peak wind gust speed in kilometers per hour.
+      </li>
+      <li><b>Gust_mph:</b> The peak wind gust speed in miles per hour.</li>
+      <li><b>Humidity:</b> The percentage of water vapor in the air.</li>
+      <li><b>Precip_in:</b> The amount of precipitation that has fallen in inches.
+      </li>
+      <li><b>Precip_mm:</b></b> The amount of precipitation that has fallen in millimeters.</li>
+      <li><b>Pressure_in:</b></b> The air pressure in inches of mercury.</li>
+      <li><b>Pressure_mb:</b></b> The air pressure in millibars.</li>
+      <li><b>Temp_c:</b></b> The temperature in degrees Celsius.</li>
+      <li><b>Temp_f:</b> The temperature in degrees Fahrenheit.</li>
+      <li><b>Uv:</b> The ultraviolet index.</li>
+      <li><b>Vis_km:</b> The visibility in kilometers.</li>
+      <li><b>Vis_miles:</b> The visibility in miles.</li>
+      <li><b>Wind_degree:</b> The direction of the wind in degrees.</li>
+      <li><b>Wind_dir:</b> The direction of the wind as a compassdirection (e.g., north, south, east, west).</li>
+      <li><b>Wind_kph:</b> The wind speed in kilometers per hour.</li>
+      <li><b>Wind_mph:</b> The wind speed in miles per hour.</li>
+    </ul>
+  </div>
+
+  <script src="java.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  
+</body>
+
+</html>
+<!-- <<th>
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+      data-bs-auto-close="outside">
+      Dropdown form
+    </button>
+    <form class="dropdown-menu p-4">
+      <p>
+      <h4>Minimum values:</h4> It is generally considered to be comfortable for humans <br />when the feels_like
+      temperature is between 18 and 25 degrees<br /> Celsius (64.4 and 77 degrees Fahrenheit).</p>
+      <p>
+      <h4>Maximum values:</h4> When the feels_like temperature is above 32 degrees Celsius<br /> (90 degrees
+      Fahrenheit), it can start to feel uncomfortable and even dangerous.</p>
+  </div>
+  </div>
+  </form>
+  </div>
+</th>> -->
+</b>

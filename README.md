@@ -1,23 +1,25 @@
-Weather App 🌤️
-Description
-The Weather App is a responsive web application that provides real-time weather details for cities around the world. Users can search for any location to view current weather conditions, including temperature, humidity, and wind speed. Built with React and styled with Bootstrap, the app ensures a modern design that is responsive across all devices.
+# Weather App 🌤️
 
-Technologies Used
-HTML
-CSS
-JavaScript
-Bootstrap
-React
-Features
-Real-time weather updates for any location
-Displays temperature, humidity, and wind speed
-Fully responsive design that adapts to mobile, tablet, and desktop devices
-User-friendly interface with a clean and modern design
-Live Demo
-Visit the live website here:
-https://subhanashraf.github.io/weather-App/
+## Description
+The **Weather App** is a modern and responsive web application that provides real-time weather information for cities worldwide. Users can search for any location to get up-to-date details on temperature, humidity, and wind speed. The app features a clean, user-friendly design built with **React** and styled using **Bootstrap**, ensuring it works seamlessly across all devices.
 
-Source Code
-You can view and download the source code from GitHub:
-https://github.com/subhanashraf/weather-App
+## Technologies Used
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Bootstrap**
+- **React**
 
+## Features
+- Real-time weather updates for any city
+- Displays temperature, humidity, and wind speed
+- Fully responsive layout, adaptable to mobile, tablet, and desktop
+- Clean, modern user interface
+
+## Live Demo
+Visit the live website here:  
+[Weather App](https://subhanashraf.github.io/weather-App/)
+
+## Source Code
+You can view and download the source code from GitHub:  
+[GitHub Repository](https://github.com/subhanashraf/weather-App)
